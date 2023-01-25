@@ -1,0 +1,99 @@
+body{
+    /* background-color: #999; */
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+td{
+    /* border: 1px solid red; */
+}
+
+section{
+    border: 1px solid #877;
+    width:20%;
+    margin: 200px auto;
+    padding: 20px;
+    box-shadow: 0px 1px 2px 1px black;
+}
+
+
+.form table {
+    width: 90%;
+    margin: 0 auto;
+}
+
+.account header h1 {
+    width: 80%;
+    margin-left: 100px;
+}
+
+.form table input{
+    padding: 10px;
+    border: none;    
+    border-bottom-color: #877;
+    outline: none;
+}
+.form table span{
+    font-size: 70%;
+    color: darkorange;
+    visibility: hidden;
+}
+
+.form table input[type="text"],
+.form table input[type="password"] {
+    border-bottom: 1px solid #877;
+}
+
+.form table input[type="checkbox"]{
+    margin-top: 20px;
+}
+
+
+.form table tr:nth-child(3) label{
+    font-size: 85%;
+    
+}
+
+.form table button {
+    width: 100%;
+    padding: 10px;
+    background-color: rgb(82 148 226);
+    color: white;
+    border: 1px solid #877;
+    border-radius: 10px;
+     
+}
+
+.form table input:focus {
+    border-color: blue;
+}
+
+.form table input:focus::placeholder{
+    color: blue;
+    
+}
+
+.form table button:hover{
+    background-color: rgb(105, 164, 235) ;
+    color:#776 ;
+    cursor: pointer;
+}
+
+.form table span::before {
+    content: "!";
+    border: 1px solid darkorange;
+    border-radius: 100%;
+    display: inline-block;
+    padding: 5px 10px;
+    margin: 5px;
+    animation: vibrate 0.1s infinite;
+}
+
+.form table input:focus:invalid + span {
+    visibility: visible;
+}
+
+@keyframes vibrate {
+    from { transform: translateX(1px);}
+
+    to{transform: translateX(-1px);}
+}

@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="UTF-8">
+        <link rel="stylesheet" href="style.css">
+        <title>Registration</title>
+    </head>
+    <body>
+        <section class="account">
+
+            <header>
+                <h1>Create Account</h1>
+                
+            </header>
+
+            <form action="/create-account" class="form">
+
+                <table>
+                    <tr>
+                        <td>
+                            <label>
+                                <input type="text" 
+                                placeholder="Full Name"
+                                pattern="\w+ \w+"
+                                required
+                                
+                                >
+                                <span>two words with space required</span>
+                            </label>
+
+                            
+                        </td>
+                        <td rowspan="3" >
+                            <img class="avatar" src="https://icons.iconarchive.com/icons/papirus-team/papirus-status/128/avatar-default-icon.png" alt="Placeholder">
+                        </td>
+                    </tr>
+                    <tr>
+                        <td>
+                            <label>
+                                <input type="text" 
+                                placeholder="Nickname"
+                                pattern="\w{3,11}"
+                                required
+                                
+                                >
+                                <span>one word between 3... 11 symbols</span>
+                            </label>
+                            
+                        </td>                      
+                    </tr>
+                    <tr>
+                        <td>
+                            <label>
+                                <input type="password"
+                                placeholder="Password"
+                                pattern="\w{8,12}"
+                                required
+                                
+                                >
+                                <span>one word between 8... 12 symbols</span>
+                            </label>
+                        </td>
+                    </tr>
+
+                    <tr>
+                        <td>
+                           <label><input type="checkbox" required> agree with terms </label>
+                        </td>
+
+                        
+                         <td>
+                             <button>Create</button>
+                         </td>
+                    </tr>
+                        
+                    
+                </table>
+            </form>
+
+        </section>
+    </body>
+</html>

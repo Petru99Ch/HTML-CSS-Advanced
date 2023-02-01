@@ -1,0 +1,36 @@
+body{
+    background-color: #E5E5E5;
+    font-family: 'Poppins', sans-serif;
+    text-align: center;
+}
+
+.section-5{
+    padding-top: 20vh;
+    background: #172F53;
+    padding: 5vh 5vh 0 5vh;
+    color: #fff;
+    
+    
+}
+
+.section-5 ul {
+    display: inline-block;
+    vertical-align: top;
+    list-style-type: none;
+
+}
+
+.section-5 ul li {
+    margin-right: 10vw;
+    margin-bottom: 2vh;
+    text-align: left;
+}
+.section-5 ul li:first-child{
+    font-weight: 700;
+    margin-bottom: 5vh;
+}
+
+.section-5 a {
+    color: #fff;
+    text-decoration: none;
+}

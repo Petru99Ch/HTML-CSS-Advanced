@@ -1,0 +1,154 @@
+body{
+    background-color: #E5E5E5;
+    font-family: 'Poppins', sans-serif;
+
+}
+
+.section-2 { 
+    margin-top: 15vh;
+    text-align: center;
+}
+
+.section-2 > span{
+    font-weight: 500;
+    font-size: 30px;
+    line-height: 45px;
+    text-align: center;
+    color: #A9A9A9;
+    
+}
+.section-2 h2 {
+    font-weight: 700;
+    font-size: 52px;
+    line-height: 78px;
+    text-align: center;
+    margin: 0;
+    margin-top: .25em;
+
+    color: #172F53;
+}
+
+
+.section-2 .column {
+    display: inline-block;
+    width: 20vw;
+    height: 20vw;
+    margin-right: 2vw;
+    margin-top: 3vw;
+    padding-bottom: 3vw;
+    background-color:#F6F8FF ;
+
+    border-radius: 20px;
+    transition: 0.5s;
+}
+
+
+
+.section-2 .column h3{
+    text-align: left;
+    margin-left: .75em;
+    font-weight: 700;
+    font-size: 32px;
+    line-height: 48px;
+    color: #172F53;
+}
+
+.section-2 .icon-1 {
+    background-image: url(gift.svg);
+    background-repeat: no-repeat;
+    background-size: 3.5em;
+    background-position: center;
+    width: 3vw;
+    height: 3vw;
+    padding: 20px;  
+
+    border-radius: 100%;    
+    background-color: #fff;
+    box-shadow: 18px 18px 50px rgba(0, 0, 0, 0.05);    
+
+    position: relative;
+    left: 18px;
+}
+
+.section-2 .icon-2 {
+    background-image: url(monitor.svg);
+    background-repeat: no-repeat;
+    background-size: 3.5em;
+    background-position: center;
+    width: 3vw;
+    height: 3vw;
+    padding: 20px;  
+
+    border-radius: 100%;    
+    background-color: #fff;
+    box-shadow: 18px 18px 50px rgba(0, 0, 0, 0.05);    
+
+    position: relative;
+    left: 18px;
+}
+
+.section-2 .icon-3 {
+    background-image: url(chemical-weapon.svg);
+    background-repeat: no-repeat;
+    background-size: 3.5em;
+    background-position: center;
+    width: 3vw;
+    height: 3vw;
+    padding: 20px;  
+
+    border-radius: 100%;    
+    background-color: #fff;
+    box-shadow: 18px 18px 50px rgba(0, 0, 0, 0.05);    
+
+    position: relative;
+    left: 18px;
+}
+
+.section-2 .icon-4 {
+    background-image: url(truck-outline.svg);
+    background-repeat: no-repeat;
+    background-size: 3.5em;
+    background-position: center;
+    width: 3vw;
+    height: 3vw;
+    padding: 20px;  
+
+    border-radius: 100%;    
+    background-color: #fff;
+    box-shadow: 18px 18px 50px rgba(0, 0, 0, 0.05);    
+
+    position: relative;
+    left: 18px;
+}
+
+.section-2 .column p {
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 30px;
+    color: #A9A9A9;
+    margin: 0 0 1em 1em;
+    text-align: left;
+}
+
+.section-2 .column p:nth-child(3){
+    margin-top: 50px;
+}
+
+
+
+.section-2 .column span{
+    font-weight: 700;
+    color: #172F53;
+}
+
+.section-2 .column:hover{
+    background-color:#5F5FFE ;
+    cursor: pointer;
+}
+
+.section-2 .column:hover h3,
+.section-2 .column:hover p,
+.section-2 .column:hover span{
+    color: #fff;
+        
+}

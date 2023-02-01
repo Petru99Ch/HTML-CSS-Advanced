@@ -1,0 +1,50 @@
+body{
+    background-color: #E5E5E5;
+    font-family: 'Poppins', sans-serif;
+}
+
+.section-4{
+    padding-top: 20vh;
+    text-align: center;
+}
+
+.section-4 span{
+    font-weight: 500;
+    font-size: 30px;
+    line-height: 45px;
+    color: #A9A9A9;
+}
+.section-4 h2{
+    margin: 0;
+    font-weight: 700;
+    font-size: 52px;
+    line-height: 78px;
+    color: #172F53;
+}
+
+.section-4 .advertising {
+    margin-top: 4vh;
+    display: inline-block;
+    width: 75vw;
+    height: 12vw;
+    background: #FFFFFF;
+    box-shadow: 8px 8px 100px 10px rgba(0, 0, 0, 0.1);
+    border-radius: 20px;
+    position: relative;
+   
+    
+    
+}
+
+.section-4 .advertising a {
+    display: inline-block;
+    margin-left: 1.5vw;
+    margin-right: 1.5vw;
+    width: 15vw;
+    height: 10vh;
+    
+    margin-top: 7vh;
+    /* background-color: red; */
+
+   
+}

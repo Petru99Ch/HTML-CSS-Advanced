@@ -52,14 +52,14 @@ body{
     right: 2.27em;
     border-radius: 100%;
     border: 1px solid transparent;
-    animation: radio 2s infinite linear;
+    animation: radio 2s 5 linear;
     animation-delay: 3s;
     z-index: -1;
 
 }
 
-#toggler:target .radio {
-    animation: none;
+#toggler:target + .radio {
+    display: none;
 }
 
 

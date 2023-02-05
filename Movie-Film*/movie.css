@@ -1,0 +1,87 @@
+body{
+    background-image:radial-gradient(transparent, #234), url(bg.png) ;
+    --size: 40vh;
+    --count:7; 
+
+}
+
+.movie .film img {  
+    height: calc(100% );   
+    margin-left: 1.5vh;
+}
+
+.movie {
+    background-color: rgba(5, 5, 106, 0.766);
+    height: var(--size);
+    width: var(--size);
+    border-radius: 100%;   
+    
+    margin-top: calc( ( 100vh - var(--size) ) / 2 - 1vh  );
+    margin-left: calc( (100vw - var(--size) ) / 3 - 0.5vh );
+    box-shadow: 0 0 30px 20px ;
+}
+
+.movie .film {
+    background-color: #223;
+    height: calc( var(--size) * 0.75) ;
+    width: calc(var(--count) * (var(--size) * 0.75 * 3 / 2 + 2vh ) );
+
+    /* width - 100% window */
+    position: absolute;
+    left: 0;
+    right: 0;
+    top: 0;
+    bottom: 0;
+    margin: auto;
+}
+
+.movie .top
+{
+    width: calc(var(--count) * (var(--size) * 0.75 * 3 / 2 + 2vh ) );
+    height: 1.5vh;
+    background-image: radial-gradient(transparent 50%, #223 50%);
+    background-size: 1.5vh;
+    position: absolute;
+    left: 0;
+    top: 32.3vh;
+    box-shadow: 0 0 20px 8px ;
+}
+.movie .bottom
+{
+    width: calc(var(--count) * (var(--size) * 0.75 * 3 / 2 + 2vh ) );
+    height: 1.5vh;
+    background-image: radial-gradient(transparent 50%, #223 50%);
+    background-size: 1.5vh;
+    position: absolute;
+    left: 0;
+    bottom: 32.3vh;
+    box-shadow: 0 0 20px 8px ;
+}
+
+
+.movie .btn {
+    background-color: rgba(1, 1, 124, 0.604);
+    width:  calc( var(--size) * 0.78 );
+    height: calc( var(--size) * 0.78 );
+
+    position: absolute;
+    right: 0;
+    left: 0;
+    top: 0;
+    bottom: 0;  
+    margin: auto;
+
+    margin-left: calc( (100vw - ( var(--size) * 0.70 ) ) / 3 );
+    border-radius: 100%;  
+    text-align: center;
+    box-shadow: 2px 0px 8px 8px ;
+    
+}
+
+.movie .btn a {
+    display: block;   
+    margin-top: calc((var(--size) * 0.78 ) /3 );
+    font-size: 8vh;
+    color: white;
+    opacity: 1;
+}

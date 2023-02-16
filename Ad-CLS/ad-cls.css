@@ -1,0 +1,47 @@
+body{
+    font-family: sans-serif;
+}
+.container {
+    width: 1200px;
+    margin: auto;
+}
+
+ .news .poster {
+    width: 100%;
+
+}
+
+@media (max-width: 1280px){
+    .container{
+        width: 960px;
+    }
+
+}
+
+@media (max-width: 1024px){
+    .container{
+        width: 96%;
+    }
+
+    .news .poster {
+        height: 45vh;
+        object-fit: cover ;
+    }
+}
+
+/* HW2 */
+
+.container {
+    position: relative;
+}
+
+#ad-baner {
+    position: absolute;
+    top: 10vh;
+    
+    
+}
+
+.container h1 {
+    margin-bottom: 65vh;
+}

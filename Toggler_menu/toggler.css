@@ -1,0 +1,71 @@
+    body {
+        font-family: 'Share Tech', sans-serif;
+        background-color:#136D92;
+        background-image: url(images/bg.png);
+        height: 2000px;
+    }
+
+.navbar {
+    display: flex;
+    justify-content: space-around;
+    background-color: #136D92;
+    align-items: center;
+}
+.navbar ul {
+    display: flex;
+    align-items: center;
+}
+
+.navbar a {
+    color: white;
+    text-decoration: none;
+}
+.navbar ul li a {
+    
+    padding: 0 1em;
+    border-right: 1px solid #aaa;
+}
+
+.navbar ul li:last-child a {
+    border: none;
+}
+.navbar .toggler {
+    display: none;
+}
+
+.scrolled {
+    background-color: red;
+}
+@media(max-width: 500px){
+    .navbar .toggler {
+        display: inline;
+    }
+
+    .navbar ul {
+        display: none;
+    }
+
+    .navbar:target ul {
+        display: flex;
+        background-color: #888;
+        flex-direction: column;
+        position: absolute;
+        top: 70px;
+        left: 0;
+        right: 0;
+        align-items: flex-start;
+        
+    }
+
+    .navbar:target ul li {
+        width: 100%;
+
+    }
+
+    .navbar:target ul a {
+        border: none;
+        padding: 1em;
+        display: block;
+        border-bottom: 1px solid #aaa;
+    }
+}

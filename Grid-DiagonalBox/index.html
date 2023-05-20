@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        #content h2,
+        #content form,
+        #content a {
+            border: 2px solid blue;
+        }
+        #content h2 {
+            margin: 0;
+        }
+        #content {
+            height: calc(100vh - 16px);
+            border: 2px solid #aaa;
+            display: grid;
+            grid-template-columns: 10% 80% 1fr;
+            grid-template-rows: 10% 80% 1fr;
+            
+        }
+
+        #content form{
+            grid-column-start: 2;
+            grid-row-start: 2;
+        }
+        #content a{
+            grid-column-start: 3;
+            grid-row-start: 3;
+        }
+
+
+    </style>
+</head>
+<body>
+    <section id="content">
+        <h2>Logo</h2>
+        <form action="">
+            <input type="text" placeholder="your email adress here">
+            <button>Subscribe</button>
+        </form>
+        <a href="">CHAT</a>
+    </section>
+</body>
+</html>

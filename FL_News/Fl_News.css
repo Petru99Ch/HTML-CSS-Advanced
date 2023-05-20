@@ -1,0 +1,44 @@
+.news {
+    width: 1200px;
+    margin: auto;
+    display: flex;
+}
+
+.news .main + article {
+    order: -1
+}
+
+.news img {
+    width: 100%;
+}
+
+.news article {
+    margin: 5px 10px;
+    width: 25%;
+}
+
+.news .main {
+    width: 50%;
+}
+
+.news article {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+@media(max-width: 1240px){
+    .news {
+        width: 92%;
+        flex-direction: column;
+    }
+    .news article,
+    .news .main {
+        width: 100%; 
+    }
+
+    .news .main{
+        order: -2;
+    }
+}
+

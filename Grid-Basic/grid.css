@@ -1,0 +1,45 @@
+body{
+    background-color: #333;
+    margin: 0;
+    font-family: Arial, Helvetica, sans-serif;
+
+}
+
+.main {
+    display: grid;
+    background-color: #aaa;
+    width: 50%;
+    height: 70vh;
+    margin: 10% auto;
+
+    grid-template-columns: repeat(5, 1fr);
+    grid-template-rows: repeat(5, 1fr);
+}
+
+.main .header {
+    margin: 0;
+    background-color: green;
+    font-size: 15px;
+    /*  HW- Optimize Use compact*/
+    grid-column: 1 / 4;
+    grid-row: 1 / 4;
+    text-align: center;
+    padding: 3%;
+}
+
+.main .link{
+    
+    text-decoration: none;
+    color: #fff;
+    background-color: blue;
+    padding: 3%;
+    text-align: right;    
+    /*  HW- Optimize Use compact*/
+    grid-column: 3/6;
+    grid-row: 3/6;
+
+    /* HW - align text bottom   */
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+}
